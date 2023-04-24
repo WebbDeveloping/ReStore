@@ -25,7 +25,13 @@ namespace API.Data.Migrations
                     b.Property<string>("Brand")
                         .HasColumnType("TEXT");
 
+                    b.Property<string>("Category")
+                        .HasColumnType("TEXT");
+
                     b.Property<string>("Description")
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("Handle")
                         .HasColumnType("TEXT");
 
                     b.Property<string>("Name")
