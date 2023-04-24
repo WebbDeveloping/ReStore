@@ -3,6 +3,9 @@ import React, { useState, useEffect } from "react";
 import Catalog from "../../features/catalog/Catalog";
 import { Product } from "../models/products";
 import "./App.css";
+import "../../global.css";
+import "./styles.css";
+import Hero from "../components/02-molecules/Hero/Hero";
 
 function App() {
   const [products, setProducts] = useState<Product[]>([]);
@@ -34,10 +37,15 @@ function App() {
         setProducts(data);
       });
   }, []);
+
   return (
-    <div className="App">
-      <h1>Store</h1>
-      <Catalog products={products} addProduct={addProduct} />
+    <div className="">
+      <section className="min-h-[93vh] bg-[#080808] flex justify-center">
+        <div className="w-full overflow-hidden">
+          <Hero />
+        </div>
+      </section>
+      {/* <Catalog products={products} addProduct={addProduct} /> */}
     </div>
   );
 }

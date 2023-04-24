@@ -1,5 +1,5 @@
 .storybook-button {
-  font-family: 'Nunito Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: "Nunito Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 700;
   border: 0;
   border-radius: 3em;
@@ -8,8 +8,22 @@
   line-height: 1;
 }
 .storybook-button--primary {
-  color: white;
-  background-color: #1ea7fd;
+  color: #000;
+  text-align: center;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  background-color: #fff;
+  border-radius: 100px;
+  justify-content: center;
+  align-items: center;
+
+  font-size: 11px;
+  line-height: 1.5em;
+  text-decoration: none;
+  display: flex;
+  font-weight: 400;
+  margin-right: auto;
+  margin-left: auto;
 }
 .storybook-button--secondary {
   color: #333;
@@ -18,13 +32,13 @@
 }
 .storybook-button--small {
   font-size: 12px;
-  padding: 10px 16px;
+  padding: 14px 23px 14px 28px;
 }
 .storybook-button--medium {
   font-size: 14px;
-  padding: 11px 20px;
+  padding: 14px 23px 14px 28px;
 }
 .storybook-button--large {
   font-size: 16px;
-  padding: 12px 24px;
+  padding: 14px 23px 14px 28px;
 }
