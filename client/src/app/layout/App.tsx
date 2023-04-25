@@ -7,6 +7,8 @@ import "../../global.css";
 import "./styles.css";
 import Hero from "../components/02-molecules/Hero/Hero";
 import Navigation from "../components/02-molecules/Navigation/Navigation";
+import OurStory from "../components/02-molecules/OurStory/OurStory";
+import Carousel from "../components/02-molecules/Carousel/Carousel";
 
 function App() {
   const [products, setProducts] = useState<Product[]>([]);
@@ -47,7 +49,15 @@ function App() {
           <Hero />
         </div>
       </section>
+      <section className="min-h-[93vh] bg-[#ffffff] flex justify-center">
+        <div className="container mx-auto w-full overflow-hidden">
+          <OurStory />
+        </div>
+      </section>
       {/* <Catalog products={products} addProduct={addProduct} /> */}
+      {/* <section className="py-16"> */}
+      <Carousel />
+      {/* </section> */}
     </div>
   );
 }
