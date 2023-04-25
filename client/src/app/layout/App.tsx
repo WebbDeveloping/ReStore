@@ -6,6 +6,7 @@ import "./App.css";
 import "../../global.css";
 import "./styles.css";
 import Hero from "../components/02-molecules/Hero/Hero";
+import Navigation from "../components/02-molecules/Navigation/Navigation";
 
 function App() {
   const [products, setProducts] = useState<Product[]>([]);
@@ -40,6 +41,7 @@ function App() {
 
   return (
     <div className="">
+      <Navigation />
       <section className="min-h-[93vh] bg-[#080808] flex justify-center">
         <div className="w-full overflow-hidden">
           <Hero />

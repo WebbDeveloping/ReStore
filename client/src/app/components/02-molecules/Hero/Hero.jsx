@@ -58,7 +58,7 @@ function Hero(props) {
             alt=""
             className="absolute inset-0 object-cover w-full h-full z-0"
           />
-          <div className="relative grid justify-center text-center text-white max-w-[800px] z-40 p-2">
+          <div className="relative grid justify-center text-center text-white max-w-[800px] z-40 px-2">
             <h1 className="text-5xl font-semibold uppercase m-0 mb-8">
               {slide.title}
             </h1>
@@ -72,6 +72,7 @@ function Hero(props) {
               />
             </div>
           </div>
+          <div className="overlay bg-[#0808084d] absolute top-0 left-0 w-full h-full"></div>
         </div>
       ))}
     </Slider>
