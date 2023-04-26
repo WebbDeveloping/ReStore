@@ -1,7 +1,7 @@
 import Carousel from "./Carousel";
 
 const Component = {
-  title: "inflight-02-molecules/Carousel",
+  title: "02-molecules/Carousel",
   component: Carousel,
 };
 

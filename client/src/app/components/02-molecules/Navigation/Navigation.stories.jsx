@@ -1,7 +1,7 @@
 import Navigation from "./Navigation";
 
 const Component = {
-  title: "inflight-02-molecules/Navigation",
+  title: "02-molecules/Navigation",
   component: Navigation,
 };
 

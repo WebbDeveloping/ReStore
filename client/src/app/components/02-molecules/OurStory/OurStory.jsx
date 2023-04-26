@@ -2,7 +2,7 @@ import React from "react";
 
 function OurStory() {
   return (
-    <div className="px-4 py-20 relative flex justify-center z-10">
+    <div className="px-4 pt-20 relative flex justify-center z-10">
       <div className="grid-cols-3 gap-0 relative z-25">
         <div className="grid grid-cols-1 grid-row-2 gap-0 items-center justify-center content-center">
           <div className="w-full max-w-full mx-auto -mt-4">
