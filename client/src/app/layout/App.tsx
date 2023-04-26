@@ -42,9 +42,9 @@ function App() {
   }, []);
 
   return (
-    <div className="">
+    <div className="w-full">
       <Navigation />
-      <section className="min-h-[93vh] bg-[#080808] flex justify-center">
+      <section className="min-h-[93vh] bg-[#080808] flex justify-center w-full">
         <div className="w-full overflow-hidden">
           <Hero />
         </div>
@@ -55,9 +55,9 @@ function App() {
         </div>
       </section>
       {/* <Catalog products={products} addProduct={addProduct} /> */}
-      {/* <section className="py-16"> */}
-      <Carousel />
-      {/* </section> */}
+      <section className="py-16 overflow-x-hidden">
+        <Carousel />
+      </section>
     </div>
   );
 }

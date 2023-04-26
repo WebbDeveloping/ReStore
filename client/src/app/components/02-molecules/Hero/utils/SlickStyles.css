@@ -26,7 +26,21 @@
   background-color: #fff !important;
 }
 
+.slider-dot {
+  width: 1em;
+  height: 1em;
+  cursor: pointer;
+  background-color: rgba(255, 255, 255, 0.4);
+  margin: 0 3px 0.5em;
+  transition: background-color 0.1s, color 0.1s;
+  display: inline-block;
+  position: relative;
+  bottom: 38px !important;
+  border-radius: 1000px;
+}
+
 .slick-dots li {
+  /* //this is the non clickable one */
   width: 1em;
   height: 1em;
   cursor: pointer;
@@ -40,7 +54,6 @@
 }
 
 .slick-dots {
-  position: relative;
   height: 48px;
   min-height: 12px;
   flex-direction: row;
@@ -51,7 +64,7 @@
   font-size: 6px;
   display: flex;
   top: auto;
-  bottom: 48px;
+  bottom: 36px;
   left: 0;
   right: 0;
   transform: none;
@@ -79,19 +92,4 @@
   justify-content: center;
   align-items: center;
   display: flex;
-}
-
-.slide-arrow {
-  width: 48px;
-  height: 48px;
-  border: 1px solid rgba(255, 255, 255, 0.2);
-  border-radius: 100%;
-  justify-content: center;
-  align-items: center;
-  padding: 0;
-  display: flex;
-  top: auto;
-  bottom: 48px;
-  left: 0;
-  right: auto;
 }

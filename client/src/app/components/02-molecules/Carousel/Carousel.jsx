@@ -3,7 +3,7 @@ import "slick-carousel/slick/slick-theme.css";
 import "slick-carousel/slick/slick.css";
 import { Button } from "../../../../stories/Button";
 import { NextArrow, PrevArrow } from "../Hero/utils/HeroArrows";
-
+import "./utils/styles.css";
 import { slides } from "./utils/slides";
 
 function Carousel() {
@@ -15,8 +15,8 @@ function Carousel() {
     centerMode: true,
     centeredPadding: "60px",
     className: "center",
-    // nextArrow: <NextArrow />,
-    // prevArrow: <PrevArrow />,
+    nextArrow: <NextArrow />,
+    prevArrow: <PrevArrow />,
   };
   return (
     <Slider {...settings}>
@@ -24,7 +24,7 @@ function Carousel() {
         console.log(slide);
         return (
           <div
-            className="relative min-h-[70vw] py-9 px-6 overflow-hidden rounded-md shadow-lg "
+            className="relative min-h-[70vw] py-9 px-6 overflow-x-hidden rounded-md shadow-lg "
             key={index}
           >
             {/* <div className="relative w-full h-full"> */}

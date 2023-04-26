@@ -2,7 +2,7 @@ import React from "react";
 
 function Navigation() {
   return (
-    <div className="h-[100px] bg-transparent flex flex-col fixed top-0 left-0 right-0 bottom-auto z-50">
+    <div className="max-w-full w-full h-[100px] bg-transparent flex flex-col fixed top-0 left-0 right-0 bottom-auto z-50">
       <div className="nav-base w-full h-full flex justify-center">
         <div className="grid-wrapper px-4 relative container grid col-auto row-auto gap-0 w-full z-20">
           <div className="nav-content flex items-center justify-between w-full h-full gap-4">

@@ -4,6 +4,7 @@ import "slick-carousel/slick/slick.css";
 import { slides } from "./utils/slides";
 import { Button } from "../../../../stories/Button";
 import { NextArrow, PrevArrow } from "./utils/HeroArrows";
+import "./utils/SlickStyles.css";
 
 function Hero(props) {
   const settings = {
