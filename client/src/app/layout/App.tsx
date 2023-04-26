@@ -12,6 +12,7 @@ import OurStory from "../components/02-molecules/OurStory/OurStory";
 import Carousel from "../components/02-molecules/Carousel/Carousel";
 import BestSelling from "../components/02-molecules/BestSelling/BestSelling";
 import BgImgSlider from "../components/02-molecules/BgImgSlider/BgImgSlider";
+import ProductGrid from "../components/02-molecules/ProductGrid/ProductGrid";
 
 function App() {
   const [products, setProducts] = useState<Product[]>([]);
@@ -64,8 +65,10 @@ function App() {
         {/* <Catalog products={products} addProduct={addProduct} slides={[]} /> */}
         <BestSelling />
       </section>
-      <section className="py-10">
+      <section className="py-10 flex flex-col items-center">
         <BgImgSlider />
+        <br />
+        <ProductGrid />
       </section>
     </div>
   );

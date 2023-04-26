@@ -3,7 +3,7 @@ import "slick-carousel/slick/slick-theme.css";
 import "slick-carousel/slick/slick.css";
 import { products } from "./utils/products";
 
-function BestSelling(props) {
+function ProductGrid(props) {
   const settings = {
     slidesToShow: 1,
     slidesToScroll: 1,
@@ -20,7 +20,7 @@ function BestSelling(props) {
           <h2 className="text-3xl">Best Selling</h2>
         </div>
       </div>
-      <Slider {...settings}>
+      <div className="grid grid-cols-2 gap-x-1 gap-y-6">
         {products.length &&
           products.map((product) => (
             <div className="w-full h-full">
@@ -28,7 +28,7 @@ function BestSelling(props) {
                 href="/product/meowtary-grenade-harness"
                 className="flex flex-col h-full w-full text-[#080808] bg-white gap-1"
               >
-                <div className="bg-[#f4f8fa] h-full">
+                <div className="bg-[#f4f8fa]  h-[70vw] max-h-[650px]">
                   <div className="card-image extra-large h-[120vw] max-h-[700px] min-h-full flex flex-col justify-end relative overflow-hidden">
                     <div className="background-product h-full absolute top-0 right-0 bottom-0 left-0 overflow-hidden">
                       <div className="image-card one w-full h-full max-h-[500px]">
@@ -36,7 +36,7 @@ function BestSelling(props) {
                           //   src="https://assets.website-files.com/642fc428f0c0b942b1ba7a71/6430547f5c315878aebd267f_gren-3.png"
                           src={product.PictureUrl}
                           alt=""
-                          className="h-full w-full absolute inset-0 object-cover z-10 max-h-[500px]"
+                          className="w-full absolute inset-0 object-cover z-10 h-[70vw] max-h-[650px]"
                         />
                       </div>
                     </div>
@@ -86,9 +86,9 @@ function BestSelling(props) {
               </a>
             </div>
           ))}
-      </Slider>
+      </div>
     </div>
   );
 }
 
-export default BestSelling;
+export default ProductGrid;

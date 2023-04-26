@@ -2,13 +2,14 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick-theme.css";
 import "slick-carousel/slick/slick.css";
 import { slides } from "./utils/slides";
+import "./utils/styles.css";
 
 function BgImgSlider() {
   const settings = {
     dots: true,
     slidesToShow: 1,
     slidesToScroll: 1,
-    arrows: true,
+    // arrows: true,
     vertical: true,
     verticalSwiping: false,
     adaptiveHeight: true,
@@ -18,7 +19,7 @@ function BgImgSlider() {
       {slides.map((slide, index) => (
         <div
           key={index}
-          className="w-full h-[93vh] !flex justify-center items-center pt-20 pb-40 relative z-30 flex-col max-h-[525px]"
+          className="w-full h-[93vh] !flex justify-center items-center pt-20 pb-40 relative z-30 flex-col max-h-[525px] max-w-[700px]"
         >
           <img
             src={slide.image}
