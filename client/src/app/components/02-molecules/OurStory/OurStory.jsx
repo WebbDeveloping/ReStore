@@ -53,23 +53,19 @@ function OurStory() {
             </div>
           </div>
           <div className="story-image-wrapper flex w-full justify-center mt-16 gap-2">
-            <div className="story-image w-[133px] h-[220px] border-1 border-black relative overflow-hidden">
-              <div className="story-background">
-                <img
-                  className="w-full h-full"
-                  src="https://assets.website-files.com/642fc428f0c0b966d5ba7a46/642fc5b200c6121239e961ea_9.webp"
-                  alt=""
-                />
-              </div>
+            <div className="relative third h-[220px] w-[113px] mt-4">
+              <img
+                src="https://assets.website-files.com/642fc428f0c0b966d5ba7a46/642fc5b24525316565e8ab0d_11.webp"
+                className="h-full w-full object-cover absolute inset-0 top-0 left-0 right-0 bottom-0"
+                alt="Purrtection Helmet"
+              />
             </div>
-            <div className="story-image w-[133px] h-[220px] border-1 border-black relative overflow-hidden">
-              <div className="story-background">
-                <img
-                  className="w-full h-full"
-                  src="https://assets.website-files.com/642fc428f0c0b966d5ba7a46/642fc5b24525316565e8ab0d_11.webp"
-                  alt=""
-                />
-              </div>
+            <div className="relative third h-[220px] w-[113px] mt-16">
+              <img
+                src="https://assets.website-files.com/642fc428f0c0b966d5ba7a46/642fc5b200c6121239e961ea_9.webp"
+                className="h-full w-full object-cover absolute inset-0 top-0 left-0 right-0 bottom-0"
+                alt="Purrtection Helmet"
+              />
             </div>
           </div>
         </div>

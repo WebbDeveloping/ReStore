@@ -65,7 +65,7 @@ function App() {
         {/* <Catalog products={products} addProduct={addProduct} slides={[]} /> */}
         <BestSelling />
       </section>
-      <section className="py-10 flex flex-col items-center">
+      <section className="pb-10 flex flex-col items-center">
         <BgImgSlider />
         <br />
         <ProductGrid />
