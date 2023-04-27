@@ -1,3 +1,4 @@
+import ActionSection from "../02-molecules/ActionSection/ActionSection";
 import BestSelling from "../02-molecules/BestSelling/BestSelling";
 import BgImgSlider from "../02-molecules/BgImgSlider/BgImgSlider";
 import FeaturedProducts from "../02-molecules/FeaturedProduct/FeaturedProducts";
@@ -32,6 +33,9 @@ export default function Home() {
         </section>
         <section className="relative pb-16 flex justify-center max-w-[100%]">
           <FeaturedProducts />
+        </section>
+        <section>
+          <ActionSection />
         </section>
       </div>
     </div>
