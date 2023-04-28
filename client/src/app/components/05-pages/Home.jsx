@@ -6,6 +6,7 @@ import Hero from "../02-molecules/Hero/Hero";
 import Navigation from "../02-molecules/Navigation/Navigation";
 import OurStory from "../02-molecules/OurStory/OurStory";
 import ProductGrid from "../02-molecules/ProductGrid/ProductGrid";
+import TestimonialSlider from "../02-molecules/TestimonialSlider/TestimonialSlider";
 
 export default function Home() {
   return (
@@ -37,6 +38,7 @@ export default function Home() {
         <section>
           <ActionSection />
         </section>
+        <TestimonialSlider />
       </div>
     </div>
   );
