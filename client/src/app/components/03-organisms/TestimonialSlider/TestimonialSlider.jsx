@@ -8,7 +8,7 @@ function TestimonialSlider() {
     // dots: true,
     slidesToShow: 1,
     slidesToScroll: 1,
-    // adaptiveHeight: true,
+    adaptiveHeight: true,
   };
 
   return (

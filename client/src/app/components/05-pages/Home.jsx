@@ -2,6 +2,8 @@ import ActionSection from "../03-organisms/ActionSection/ActionSection";
 import BestSelling from "../03-organisms/BestSelling/BestSelling";
 import BgImgSlider from "../03-organisms/BgImgSlider/BgImgSlider";
 import FeaturedProducts from "../03-organisms/FeaturedProduct/FeaturedProducts";
+import FollowUs from "../03-organisms/FollowUs/FollowUs";
+import Footer from "../03-organisms/Footer/Footer";
 import Hero from "../03-organisms/Hero/Hero";
 import Navigation from "../03-organisms/Navigation/Navigation";
 import OurStory from "../03-organisms/OurStory/OurStory";
@@ -39,6 +41,8 @@ export default function Home() {
           <ActionSection />
         </section>
         <TestimonialSlider />
+        <FollowUs />
+        <Footer />
       </div>
     </div>
   );
