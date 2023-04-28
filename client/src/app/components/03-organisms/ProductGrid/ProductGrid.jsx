@@ -23,8 +23,12 @@ function ProductGrid({ products }) {
               Handle={product.Handle}
               Category={product.Category}
               PictureUrl={product.PictureUrl}
+              Brand={product.Brand}
+              Type={product.Type}
+              QuantityInStock={product.QuantityInStock}
               isNew={product.isNew}
               discount={product.discount}
+              isBestSelling={product.isBestSelling}
             />
           );
         })}

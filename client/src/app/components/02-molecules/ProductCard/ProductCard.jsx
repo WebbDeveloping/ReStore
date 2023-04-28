@@ -9,8 +9,12 @@ const ProductCard = ({
   Handle,
   Category,
   PictureUrl,
-  isNew,
+  Brand,
+  Type,
+  QuantityInStock,
   discount,
+  isNew,
+  isBestSelling,
 }) => {
   return (
     <div className="w-full h-full">

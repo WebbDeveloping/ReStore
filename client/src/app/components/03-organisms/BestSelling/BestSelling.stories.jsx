@@ -12,5 +12,5 @@ const Template = (args) => <BestSelling {...args} />;
 
 export const Default = Template.bind({});
 Default.args = {
-  slides: products,
+  products: products,
 };
