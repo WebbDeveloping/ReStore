@@ -13,9 +13,18 @@ function ProductGrid(props) {
         </div>
       </div>
       <div className="grid grid-cols-2 gap-x-1 gap-y-6">
-        {products.length &&
-          products.map((product) => (
-            <ProductCard key={product.id} product={product} />
+        {products &&
+          products.map((product, index) => (
+            <ProductCard
+              key={index}
+              name={product.name}
+              Price={product.Price}
+              Handle={product.Handle}
+              Category={product.Category}
+              PictureUrl={product.PictureUrl}
+              isNew={product.isNew}
+              discount={product.discount}
+            />
           ))}
       </div>
     </div>

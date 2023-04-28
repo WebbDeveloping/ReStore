@@ -11,6 +11,8 @@ export const products = [
     Brand: "Angular",
     Type: "Advanced",
     QuantityInStock: 100,
+    discount: true,
+    isNew: false,
   },
   {
     name: "Clawed Camo Vest",
@@ -24,6 +26,8 @@ export const products = [
     Brand: "Angular",
     Type: "Advanced",
     QuantityInStock: 100,
+    discount: false,
+    isNew: true,
   },
   {
     name: "Feline Combat Glasses",
@@ -37,6 +41,8 @@ export const products = [
     Brand: "Angular",
     Type: "Advanced",
     QuantityInStock: 100,
+    discount: false,
+    isNew: false,
   },
   {
     name: "Meowtary Grenade Harness",
@@ -50,6 +56,8 @@ export const products = [
     Brand: "Angular",
     Type: "Advanced",
     QuantityInStock: 100,
+    discount: false,
+    isNew: false,
   },
   {
     name: "Purrfect Camo Gear",
@@ -63,6 +71,8 @@ export const products = [
     Brand: "Angular",
     Type: "Advanced",
     QuantityInStock: 100,
+    discount: false,
+    isNew: false,
   },
   {
     name: "Purrtection Helmet",
@@ -76,5 +86,7 @@ export const products = [
     Brand: "Angular",
     Type: "Advanced",
     QuantityInStock: 100,
+    discount: false,
+    isNew: false,
   },
 ];
