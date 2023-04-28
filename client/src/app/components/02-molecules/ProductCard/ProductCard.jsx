@@ -4,6 +4,7 @@ import ProductImage from "../../01-atoms/ProductImage/ProductImage";
 
 const ProductCard = ({
   name,
+  Description,
   Price,
   Handle,
   Category,

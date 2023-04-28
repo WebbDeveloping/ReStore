@@ -13,6 +13,7 @@ export const products = [
     QuantityInStock: 100,
     discount: true,
     isNew: false,
+    isBestSelling: false,
   },
   {
     name: "Clawed Camo Vest",
@@ -28,6 +29,7 @@ export const products = [
     QuantityInStock: 100,
     discount: false,
     isNew: true,
+    isBestSelling: false,
   },
   {
     name: "Feline Combat Glasses",
@@ -43,6 +45,7 @@ export const products = [
     QuantityInStock: 100,
     discount: false,
     isNew: false,
+    isBestSelling: false,
   },
   {
     name: "Meowtary Grenade Harness",
@@ -58,6 +61,7 @@ export const products = [
     QuantityInStock: 100,
     discount: false,
     isNew: false,
+    isBestSelling: false,
   },
   {
     name: "Purrfect Camo Gear",
@@ -73,6 +77,7 @@ export const products = [
     QuantityInStock: 100,
     discount: false,
     isNew: false,
+    isBestSelling: false,
   },
   {
     name: "Purrtection Helmet",
@@ -88,5 +93,6 @@ export const products = [
     QuantityInStock: 100,
     discount: false,
     isNew: false,
+    isBestSelling: false,
   },
 ];

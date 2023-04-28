@@ -1,9 +1,8 @@
 import Slider from "react-slick";
 import "slick-carousel/slick/slick-theme.css";
 import "slick-carousel/slick/slick.css";
-import { products } from "./utils/products";
 
-function BestSelling(props) {
+function BestSelling({ products }) {
   const settings = {
     slidesToShow: 1,
     slidesToScroll: 1,
@@ -21,8 +20,9 @@ function BestSelling(props) {
         </div>
       </div>
       <Slider {...settings}>
-        {products.length &&
-          products.map((product) => (
+        {products.map((product) => {
+          // if (!product.isBestSelling) return null;
+          return (
             <div className="w-full h-full">
               <a
                 href="/product/meowtary-grenade-harness"
@@ -74,7 +74,8 @@ function BestSelling(props) {
                 </div>
               </a>
             </div>
-          ))}
+          );
+        })}
       </Slider>
     </div>
   );

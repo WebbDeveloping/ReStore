@@ -1,5 +1,5 @@
 import ProductGrid from "./ProductGrid";
-import { products } from "./utils/products";
+import { products } from "../../../TestData/products";
 
 const Component = {
   title: "03-organisms/ProductGrid",

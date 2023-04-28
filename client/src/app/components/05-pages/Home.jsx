@@ -9,6 +9,7 @@ import Navigation from "../03-organisms/Navigation/Navigation";
 import OurStory from "../03-organisms/OurStory/OurStory";
 import ProductGrid from "../03-organisms/ProductGrid/ProductGrid";
 import TestimonialSlider from "../03-organisms/TestimonialSlider/TestimonialSlider";
+import { products } from "../../TestData/products";
 
 export default function Home() {
   return (
@@ -27,12 +28,12 @@ export default function Home() {
         </section>
         <section className="py-8 overflow-x-hidden flex justify-center items-start">
           {/* <Catalog products={products} addProduct={addProduct} slides={[]} /> */}
-          <BestSelling />
+          <BestSelling products={products} />
         </section>
         <section className="py-10 flex flex-col items-center">
           <BgImgSlider />
           <br />
-          <ProductGrid />
+          <ProductGrid products={products} />
         </section>
         <section className="relative pb-16 flex justify-center max-w-[100%]">
           <FeaturedProducts />

@@ -1,7 +1,7 @@
 import ProductCard from "../../02-molecules/ProductCard/ProductCard";
-import { products } from "./utils/products";
 
-function ProductGrid(props) {
+function ProductGrid({ products }) {
+  console.log("Best Selling", products);
   return (
     <div className="relative flex flex-col w-full z-20 py-10">
       <div className="text-center mb-9">
@@ -13,11 +13,12 @@ function ProductGrid(props) {
         </div>
       </div>
       <div className="grid grid-cols-2 gap-x-2 gap-y-6">
-        {products &&
-          products.map((product, index) => (
+        {products.map((product, index) => {
+          return (
             <ProductCard
               key={index}
               name={product.name}
+              Description={product.Description}
               Price={product.Price}
               Handle={product.Handle}
               Category={product.Category}
@@ -25,7 +26,8 @@ function ProductGrid(props) {
               isNew={product.isNew}
               discount={product.discount}
             />
-          ))}
+          );
+        })}
       </div>
     </div>
   );
