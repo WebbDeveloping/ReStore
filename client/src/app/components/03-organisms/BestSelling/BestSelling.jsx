@@ -33,7 +33,6 @@ function BestSelling(props) {
                     <div className="background-product h-full absolute top-0 right-0 bottom-0 left-0 overflow-hidden">
                       <div className="image-card one w-full h-full max-h-[500px]">
                         <img
-                          //   src="https://assets.website-files.com/642fc428f0c0b942b1ba7a71/6430547f5c315878aebd267f_gren-3.png"
                           src={product.PictureUrl}
                           alt=""
                           className="h-full w-full absolute inset-0 object-cover z-10 max-h-[500px]"
@@ -69,16 +68,6 @@ function BestSelling(props) {
                       <div className="dynamic-price">
                         <div className="price-text">$&nbsp;69.00&nbsp;USD</div>
                         <div className="discount"></div>
-                      </div>
-                    </div>
-                    <div className="product-card-buttons">
-                      <div className="product-card-button w-commerce-commerceaddtocartbutton">
-                        <button
-                          type="submit"
-                          className="w-commerce-commerceaddtocartbutton add-to-cart-button"
-                        >
-                          Add to cart
-                        </button>
                       </div>
                     </div>
                   </div>

@@ -12,7 +12,7 @@ function ProductGrid(props) {
           <h2 className="text-3xl">Best Selling</h2>
         </div>
       </div>
-      <div className="grid grid-cols-2 gap-x-1 gap-y-6">
+      <div className="grid grid-cols-2 gap-x-2 gap-y-6">
         {products &&
           products.map((product, index) => (
             <ProductCard

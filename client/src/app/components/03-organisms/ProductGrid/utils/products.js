@@ -26,7 +26,7 @@ export const products = [
     Brand: "Angular",
     Type: "Advanced",
     QuantityInStock: 100,
-    discount: true,
+    discount: false,
     isNew: false,
   },
   {
@@ -41,7 +41,7 @@ export const products = [
     Brand: "Angular",
     Type: "Advanced",
     QuantityInStock: 100,
-    discount: true,
+    discount: false,
     isNew: false,
   },
   {
@@ -56,7 +56,7 @@ export const products = [
     Brand: "Angular",
     Type: "Advanced",
     QuantityInStock: 100,
-    discount: true,
+    discount: false,
     isNew: false,
   },
 ];

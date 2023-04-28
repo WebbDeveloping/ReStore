@@ -1,5 +1,6 @@
 import { isNewItem } from "./utils/isNew";
 import { isDiscounted } from "./utils/isDiscounted";
+import ProductImage from "../../01-atoms/ProductImage/ProductImage";
 
 const ProductCard = ({
   name,
@@ -14,20 +15,20 @@ const ProductCard = ({
     <div className="w-full h-full">
       <a
         href={`/product/${Handle}`}
-        className="flex flex-col h-full w-full text-gray-800 bg-white gap-1"
+        className="flex flex-col  text-gray-800 bg-white gap-1"
       >
-        <div className="bg-gray-100 h-full">
-          <div className="h-[120vw] max-h-[700px] min-h-full flex flex-col justify-end relative overflow-hidden">
-            <div className="h-full absolute top-0 right-0 bottom-0 left-0 overflow-hidden">
-              <div className="w-full h-full max-h-[500px]">
-                <img
-                  src={PictureUrl}
-                  alt=""
-                  className="h-full w-full absolute inset-0 object-cover z-10 max-h-[500px]"
-                />
-              </div>
-            </div>
-          </div>
+        <div className="bg-gray-100 h-full overflow-hidden">
+          <ProductImage
+            src={PictureUrl}
+            alt={name}
+            height={300}
+            width={200}
+            borderRadius={10}
+            borderColor="#ccc"
+            borderWidth={1}
+            shadowColor="#000"
+            shadowBlur={5}
+          />
         </div>
         <div className="px-3 flex flex-col items-start justify-start py-3 pr-4 pl-5 gap-3">
           <div className="flex flex-col gap-3 justify-start items-start w-full">
