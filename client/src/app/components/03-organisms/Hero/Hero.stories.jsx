@@ -1,7 +1,7 @@
 import Hero from "./Hero";
 
 const Component = {
-  title: "02-molecules/Hero",
+  title: "03-organisms/Hero",
   component: Hero,
 };
 

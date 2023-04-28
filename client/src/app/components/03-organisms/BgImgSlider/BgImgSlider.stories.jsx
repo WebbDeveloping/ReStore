@@ -2,7 +2,7 @@ import BgImgSlider from "./BgImgSlider";
 import { slides } from "./utils/slides";
 
 const Component = {
-  title: "02-molecules/BgImgSlider",
+  title: "03-organisms/BgImgSlider",
   component: BgImgSlider,
 };
 

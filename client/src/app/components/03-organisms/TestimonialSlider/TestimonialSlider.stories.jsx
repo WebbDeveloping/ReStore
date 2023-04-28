@@ -1,7 +1,7 @@
 import TestimonialSlider from "./TestimonialSlider";
 
 const Component = {
-  title: "Molecules/TestimonialSlider",
+  title: "03-organisms/TestimonialSlider",
   component: TestimonialSlider,
 };
 

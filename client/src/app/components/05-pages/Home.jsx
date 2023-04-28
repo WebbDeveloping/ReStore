@@ -1,12 +1,12 @@
-import ActionSection from "../02-molecules/ActionSection/ActionSection";
-import BestSelling from "../02-molecules/BestSelling/BestSelling";
-import BgImgSlider from "../02-molecules/BgImgSlider/BgImgSlider";
-import FeaturedProducts from "../02-molecules/FeaturedProduct/FeaturedProducts";
-import Hero from "../02-molecules/Hero/Hero";
-import Navigation from "../02-molecules/Navigation/Navigation";
-import OurStory from "../02-molecules/OurStory/OurStory";
-import ProductGrid from "../02-molecules/ProductGrid/ProductGrid";
-import TestimonialSlider from "../02-molecules/TestimonialSlider/TestimonialSlider";
+import ActionSection from "../03-organisms/ActionSection/ActionSection";
+import BestSelling from "../03-organisms/BestSelling/BestSelling";
+import BgImgSlider from "../03-organisms/BgImgSlider/BgImgSlider";
+import FeaturedProducts from "../03-organisms/FeaturedProduct/FeaturedProducts";
+import Hero from "../03-organisms/Hero/Hero";
+import Navigation from "../03-organisms/Navigation/Navigation";
+import OurStory from "../03-organisms/OurStory/OurStory";
+import ProductGrid from "../03-organisms/ProductGrid/ProductGrid";
+import TestimonialSlider from "../03-organisms/TestimonialSlider/TestimonialSlider";
 
 export default function Home() {
   return (

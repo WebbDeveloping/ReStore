@@ -1,7 +1,7 @@
 import BestSelling from "./BestSelling";
 
 const Component = {
-  title: "02-molecules/BestSelling",
+  title: "03-organisms/BestSelling",
   component: BestSelling,
 };
 

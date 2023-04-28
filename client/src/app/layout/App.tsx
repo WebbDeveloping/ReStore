@@ -1,18 +1,9 @@
 import React, { useState, useEffect } from "react";
-
-import Catalog from "../../features/catalog/Catalog";
-import { products } from "../components/02-molecules/BestSelling/utils/products";
 import { Product } from "../models/products";
 import "./App.css";
 import "../../global.css";
 import "./styles.css";
-import Hero from "../components/02-molecules/Hero/Hero";
-import Navigation from "../components/02-molecules/Navigation/Navigation";
-import OurStory from "../components/02-molecules/OurStory/OurStory";
-import Carousel from "../components/02-molecules/Carousel/Carousel";
-import BestSelling from "../components/02-molecules/BestSelling/BestSelling";
-import BgImgSlider from "../components/02-molecules/BgImgSlider/BgImgSlider";
-import ProductGrid from "../components/02-molecules/ProductGrid/ProductGrid";
+import Home from "../components/05-pages/Home";
 
 function App() {
   const [products, setProducts] = useState<Product[]>([]);
@@ -47,29 +38,7 @@ function App() {
 
   return (
     <div className="w-full">
-      <Navigation />
-      <section className="min-h-[93vh] bg-[#080808] flex justify-center w-full">
-        <div className="w-full overflow-hidden">
-          <Hero />
-        </div>
-      </section>
-      <section className="min-h-[93vh] bg-[#ffffff] flex justify-center">
-        <div className="container mx-auto w-full overflow-hidden">
-          <OurStory />
-        </div>
-      </section>
-      <section className="py-16 overflow-x-hidden">
-        <Carousel />
-      </section>
-      <section className="py-8 overflow-x-hidden flex justify-center items-start">
-        {/* <Catalog products={products} addProduct={addProduct} slides={[]} /> */}
-        <BestSelling />
-      </section>
-      <section className="pb-10 flex flex-col items-center">
-        <BgImgSlider />
-        <br />
-        <ProductGrid />
-      </section>
+      <Home />
     </div>
   );
 }

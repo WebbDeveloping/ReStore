@@ -1,7 +1,7 @@
 import OurStory from "./OurStory";
 
 const Component = {
-  title: "02-molecules/OurStory",
+  title: "03-organisms/OurStory",
   component: OurStory,
 };
 

@@ -5,7 +5,7 @@ import "slick-carousel/slick/slick.css";
 import {
   NextArrow,
   PrevArrow,
-} from "../../app/components/02-molecules/Hero/utils/HeroArrows";
+} from "../../app/components/03-organisms/Hero/utils/HeroArrows";
 
 interface Props {
   products: Product[];

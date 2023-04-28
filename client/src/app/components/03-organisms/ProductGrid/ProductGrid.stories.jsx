@@ -2,7 +2,7 @@ import ProductGrid from "./ProductGrid";
 import { products } from "./utils/products";
 
 const Component = {
-  title: "02-molecules/ProductGrid",
+  title: "03-organisms/ProductGrid",
   component: ProductGrid,
 };
 

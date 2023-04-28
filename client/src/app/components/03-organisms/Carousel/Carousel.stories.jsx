@@ -1,7 +1,7 @@
 import Carousel from "./Carousel";
 
 const Component = {
-  title: "02-molecules/Carousel",
+  title: "03-organisms/Carousel",
   component: Carousel,
 };
 
